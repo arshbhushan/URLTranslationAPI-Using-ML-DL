@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "URL-Translation"
+version = "0.1.0"
+description = "Your Flask app description"
+authors = ["Gautam Pahwa"]
+
+[build-system]
+requires = ["python>=3.7"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^2.0.0"
+beautifulsoup4 = "^4.10.0"
+requests = "^2.26.0"
+deep_translator = "^1.5.4"
+werkzeug = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+

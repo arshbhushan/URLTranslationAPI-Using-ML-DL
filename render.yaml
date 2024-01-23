@@ -1,0 +1,3 @@
+version: 0
+buildCommand: poetry install && poetry run
+startCommand: python app.py
